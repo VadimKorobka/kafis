@@ -1,0 +1,86 @@
+$primary-color: #b1040e;
+$secondary-color: #820000;
+$yellow-color: #fcdf51;
+$white-color: #fffdfd;
+$light-bg-color: #faf6ed;
+$border-color: #eee;
+$light-grey-color: #c5c5c5;
+$black-color: #474747;
+
+%section-title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+%section-subtitle {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+%title-18-bold {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+%title-20-semi-bold {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+%title-30-semi-bold {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+%title-36-bold {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+%text-medium {
+  font-family: Avenir Next Cyr, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+
+  //@media(-webkit-min-device-pixel-ratio: 2),
+  //(min-resolution: 192dpi) {
+  //  font-weight: 400;
+  //}
+}
+
+%text-16-medium {
+  @extend %text-medium;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+%text-18-24-medium {
+  @extend %text-medium;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+%text-18-30-medium {
+  @extend %text-medium;
+  font-size: 18px;
+  line-height: 30px;
+}

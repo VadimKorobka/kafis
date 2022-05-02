@@ -1,0 +1,76 @@
+.watermark {
+  &-top-page, &-bottom-page {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+    @media (max-width: 1199px) {
+      display: none;
+    }
+
+    img {
+      height: 226px;
+
+      @media (max-width: 1199px) {
+        height: 168px;
+      }
+    }
+  }
+
+  &-top-page {
+    top: 40px;
+
+    @media (max-width: 1199px) {
+      top: 60px;
+    }
+  }
+
+  &-bottom-page {
+    bottom: 0;
+    top: auto;
+
+    img {
+      height: 200px;
+
+      @media (max-width: 1600px) {
+        height: 180px;
+      }
+
+      @media (max-width: 1500px) {
+        display: none;
+      }
+    }
+  }
+
+  &__what-we-study {
+    position: absolute;
+    right: 0;
+    top: -40px;
+
+    img {
+      height: 226px;
+      object-fit: contain;
+
+      @media (max-width: 1500px) {
+        display: none;
+      }
+    }
+  }
+
+  &__international-programs {
+    position: absolute;
+    right: 0;
+    top: 174px;
+    z-index: 1;
+
+    img {
+      height: 370px;
+      object-fit: contain;
+
+      @media (max-width: 1500px) {
+        display: none;
+      }
+    }
+  }
+}
